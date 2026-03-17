@@ -17,6 +17,22 @@
 ========================================== */
 
 
+Decimal coffee=4.00;
+Decimal Pastry=3.50;
+Decimal Inhand=5.00;
+Decimal TotalCost=coffee+Pastry;
+Decimal Change= Inhand-TotalCost;
+Decimal Shortage= TotalCost-Inhand;
+
+If(Inhand > TotalCost)
+{
+System.debug('Your change is:' + Change);
+}
+else
+{
+System.debug('Insufficient amount. Need' + Shortage);
+
+}
 
 
 
