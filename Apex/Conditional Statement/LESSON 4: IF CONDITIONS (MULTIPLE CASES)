@@ -1,0 +1,61 @@
+/* ==========================================
+   LESSON 4: IF CONDITIONS (MULTIPLE CASES)
+   ==========================================
+   REQUIREMENT: 
+   You are writing the checkout logic for a coffee shop. 
+   A customer orders a coffee ($4.00) and a pastry ($3.50). 
+   They hand you $7.50. 
+   
+   Write the Apex code to:
+   1. Store the prices of the items.
+   2. Calculate the total cost of the order.
+   3. Handle ALL 3 conditions:
+      - If amount is greater → print:
+        "Your change is: $X.XX"
+      - If amount is equal → print:
+        "No change required"
+      - If amount is less → print:
+        "Insufficient amount. Need $X.XX more"
+========================================== */
+Discount coffee=4.00;
+Discount pastry=3.50;
+Discount Inhand=7.50;
+Discount Total=coffee+pastry;
+Discount Change=Inhand-Total;
+Discount insufficient=Total-Inhand;
+
+If(Inhand > Total)
+{
+System.debug('Your change is:' + Change);
+}
+elseif(Inhand==Total)
+{
+System.debug('No change required');
+
+}
+
+elseif(Inhand<Total)
+{
+System.debug('Insufficient amount. '+ insufficient);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   EXPECTED OUTPUT:
+   No change required
+   
+   (Calculation: 4.00 + 3.50 = 7.50 exactly paid)
+========================================= */
