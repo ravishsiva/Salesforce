@@ -1,0 +1,36 @@
+/* ==========================================
+   LESSON 2: VARIABLES & MATH (COFFEE SHOP - TAX)
+   ==========================================
+   REQUIREMENT: 
+   You are writing the checkout logic for a coffee shop. 
+   A customer orders a coffee ($4.00) and a pastry ($3.50). 
+   A 10% tax is applied to the total bill. 
+   They hand you a $10.00 bill. 
+   
+   Write the Apex code to:
+   1. Store the prices of the items.
+   2. Calculate the total cost of the order.
+   3. Apply 10% tax to the total amount.
+   4. Calculate the change due to the customer.
+   5. Print the final result to the debug log in this exact format: "Your change is: $1.75"
+========================================== */
+
+Public class 
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   EXPECTED OUTPUT:
+   Your change is: $1.75
+   
+   (Calculation: 10.00 - ((4.00 + 3.50) + 10% tax) = 1.75)
+========================================= */
