@@ -1,0 +1,45 @@
+/* ==========================================
+   LESSON 5: IF CONDITIONS (DISCOUNT LOGIC)
+   ==========================================
+   REQUIREMENT: 
+   You are writing the checkout logic for a coffee shop. 
+   A customer orders a coffee ($4.00) and a pastry ($3.50). 
+   
+   Business Rule:
+   - If total bill is greater than $7.00 → apply 10% discount
+   - Otherwise → no discount
+   
+   The customer hands you $10.00.
+   
+   Write the Apex code to:
+   1. Store the prices of the items.
+   2. Calculate the total cost.
+   3. Apply discount based on condition.
+   4. Calculate final payable amount.
+   5. Calculate change.
+   6. Print the final result in this exact format:
+      "Your change is: $3.25"
+========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   EXPECTED OUTPUT:
+   Your change is: $3.25
+   
+   (Calculation: (4.00 + 3.50) = 7.50
+    Discount 10% → 0.75
+    Final amount → 6.75
+    Change → 10.00 - 6.75 = 3.25)
+========================================= */
