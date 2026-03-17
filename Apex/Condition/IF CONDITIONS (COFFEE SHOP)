@@ -1,0 +1,37 @@
+/* ==========================================
+   LESSON 3: IF CONDITIONS (COFFEE SHOP)
+   ==========================================
+   REQUIREMENT: 
+   You are writing the checkout logic for a coffee shop. 
+   A customer orders a coffee ($4.00) and a pastry ($3.50). 
+   They hand you $5.00. 
+   
+   Write the Apex code to:
+   1. Store the prices of the items.
+   2. Calculate the total cost of the order.
+   3. Check if the customer has given enough money.
+      - If enough → calculate change and print:
+        "Your change is: $X.XX"
+      - If not enough → calculate shortage and print:
+        "Insufficient amount. Need $X.XX more"
+========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   EXPECTED OUTPUT:
+   Insufficient amount. Need $2.50 more
+   
+   (Calculation: 7.50 - 5.00 = 2.50 shortage)
+========================================= */
