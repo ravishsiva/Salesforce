@@ -24,18 +24,19 @@
 Decimal coffee=4.00;
 Decimal pastry=3.50;
 Decimal TotalCost=coffee+pastry;
-Decimal Limit =7.00;
-Decimal Discount= TotalCost+(TotalCost*0.10);
+Decimal Temp =7.00;
+Decimal Inhandamount=10;
+Decimal Discount=TotalCost- (TotalCost*0.10);
+Decimal balance=Inhandamount-Discount;
 
-If(TotalCost > Limit)
+If(TotalCost > Temp)
 {
-System.debug('Your change is:' +'$' +Discount);
+System.debug('Your change is:' +'$' +balance);
 }
 Else
 {
 System.debug('no discount');
 }
-
 
 
 
