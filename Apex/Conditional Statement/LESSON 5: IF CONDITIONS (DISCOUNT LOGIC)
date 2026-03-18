@@ -21,8 +21,20 @@
       "Your change is: $3.25"
 ========================================== */
 
+Decimal coffee=4.00;
+Decimal pastry=3.50;
+Decimal TotalCost=coffee+pastry;
+Decimal Limit =7.00;
+Decimal Discount= TotalCost+(TotalCost*0.10);
 
-
+If(TotalCost > Limit)
+{
+System.debug('Your change is:' +'$' +Discount);
+}
+Else
+{
+System.debug('no discount');
+}
 
 
 
