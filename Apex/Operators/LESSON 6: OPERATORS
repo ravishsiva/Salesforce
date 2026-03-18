@@ -1,0 +1,49 @@
+/* ==========================================
+   LESSON 6: OPERATORS (COFFEE SHOP)
+   ==========================================
+   REQUIREMENT: 
+   You are writing the checkout logic for a coffee shop. 
+   A customer orders a coffee ($4.00) and a pastry ($3.50). 
+   
+   Business Rules:
+   - If total is greater than $7.00 AND customer is a member → apply 15% discount
+   - If total is greater than $7.00 OR customer is a member → apply 5% discount
+   - Otherwise → no discount
+   
+   The customer is a member (true) and pays $10.00.
+   
+   Write the Apex code to:
+   1. Store item prices.
+   2. Use Boolean variable for membership.
+   3. Apply correct discount using logical operators (&&, ||).
+   4. Calculate final amount.
+   5. Calculate change.
+   6. Print the result in this exact format:
+      "Your change is: $3.63"
+========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+   EXPECTED OUTPUT:
+   Your change is: $3.63
+   
+   (Calculation:
+    Total = 7.50
+    Member = true
+    Condition → total > 7 AND member → 15% discount
+    Discount = 1.125
+    Final = 6.375 ≈ 6.37
+    Change = 10 - 6.37 = 3.63)
+========================================= */
