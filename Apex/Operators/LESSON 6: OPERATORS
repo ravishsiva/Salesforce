@@ -21,7 +21,9 @@
    6. Print the result in this exact format:
       "Your change is: $3.63"
 ========================================== */
-
+Decimal coffee=4.00;
+Decimal pastry=3.50;
+Boolean isCustomerMember=True;
 
 
 
